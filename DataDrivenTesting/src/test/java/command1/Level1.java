@@ -9,7 +9,7 @@ public class Level1 {
 		
 		System.setProperty("webdriver.gecko.driver", "C:/Software-selenium/geckodriver.exe");
 		WebDriver driver= new FirefoxDriver();
-		driver.get("https://www.google.com/");
+		driver.get("https://www.opencart.com/");
 				
 		driver.manage().window().maximize();
 	}
